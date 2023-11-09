@@ -1,15 +1,14 @@
+"use client";
 import CenterHeader from "../components/centerHeader";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Image from "next/image";
 import "../styles/main.css";
 import CarouselCom from "../components/Carousel";
-import { Carousel } from "react-responsive-carousel";
+
 const GeneralServices = () => {
   return (
     <div>
-      <Header />
-      <CarouselCom />
       <br />
 
       <div className="body-container">

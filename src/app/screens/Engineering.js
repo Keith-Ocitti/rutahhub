@@ -1,4 +1,5 @@
-const { default: Header } = require("../components/header");
+"use client";
+import Header from "../components/header";
 import Image from "next/image";
 import Footer from "../components/footer";
 import CenterHeader from "../components/centerHeader";
@@ -8,9 +9,6 @@ import CarouselCom from "../components/Carousel";
 const Engineering = () => {
   return (
     <>
-      <Header />
-
-      <CarouselCom />
       <br />
       <div className="body-container">
         <CenterHeader heading={"Engineering and Construction Services"} />

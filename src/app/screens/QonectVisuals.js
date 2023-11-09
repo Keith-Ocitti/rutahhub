@@ -1,3 +1,4 @@
+"use client";
 import CarouselCom from "../components/Carousel";
 import CenterHeader from "../components/centerHeader";
 import Footer from "../components/footer";
@@ -7,8 +8,6 @@ import Image from "next/image";
 const QonectVisuals = () => {
   return (
     <>
-      <Header />
-      <CarouselCom />
       <br />
 
       <div className="body-container">

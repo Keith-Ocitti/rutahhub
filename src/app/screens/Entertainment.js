@@ -1,3 +1,4 @@
+"use client";
 import Header from "../components/header";
 import Image from "next/image";
 import Footer from "../components/footer";
@@ -7,8 +8,6 @@ import CarouselCom from "../components/Carousel";
 const Entertainment = () => {
   return (
     <>
-      <Header />
-      <CarouselCom />
       <br />
       <div className="body-container">
         <CenterHeader heading={"Entertainment Services"} />

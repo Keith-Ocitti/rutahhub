@@ -1,3 +1,4 @@
+"use client";
 import Header from "../components/header";
 import Image from "next/image";
 import "../styles/main.css";
@@ -8,8 +9,6 @@ import CarouselCom from "../components/Carousel";
 const Agriculture = () => {
   return (
     <>
-      <Header />
-      <CarouselCom />
       <br />
       <div className="body-container">
         <CenterHeader heading="Training on Climate smart agriculture" />
@@ -60,7 +59,6 @@ const Agriculture = () => {
             </p>
           </div>
         </div>
-
         <div className="content-holder">
           <Image
             src={"/nutrients.jpg"}
@@ -154,7 +152,6 @@ const Agriculture = () => {
             </p>
           </div>
         </div>
-
         <div className="content-holder">
           <Image
             src={"/drip.jpg"}
@@ -178,9 +175,7 @@ const Agriculture = () => {
             </p>
           </div>
         </div>
-
         <CenterHeader heading="Products" />
-
         <div className="content-holder">
           <Image
             src={"/hydro.jpg"}
@@ -205,7 +200,6 @@ const Agriculture = () => {
             </p>
           </div>
         </div>
-
         <div className="content-holder">
           <Image
             src={"/barley.jpg"}
@@ -230,7 +224,6 @@ const Agriculture = () => {
             </p>
           </div>
         </div>
-
         <div className="content-holder">
           <Image
             src={"/tray.jpg"}
